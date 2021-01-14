@@ -1,26 +1,15 @@
 {
   "name": "pgsql-express-api",
-  "version": "0.0.1",
-  "description": "A template project using an Express.js API with a PostgreSQL backend.",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "jfnn"
+    "start": "node ./src/bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ifeadewumi/pgsql-express-api.git"
-  },
-  "keywords": [
-    "Express.js",
-    "Node.js",
-    "REST",
-    "API",
-    "PostgreSQL"
-  ],
-  "author": "Ifeoluwa Adewumi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ifeadewumi/pgsql-express-api/issues"
-  },
-  "homepage": "https://github.com/ifeadewumi/pgsql-express-api#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
 }
